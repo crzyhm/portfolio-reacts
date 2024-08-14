@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Animasi Melambaikan Tangan */
+@keyframes wave {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animate-wave {
+  animation: wave 2s infinite;
+}
+
+/* Animasi Mengetik dan Menghapus */
+@keyframes typing {
+  0% { width: 0; opacity: 1; }
+  25% { width: 100%; opacity: 1; }
+  75% { width: 100%; opacity: 1; }
+  100% { width: 0; opacity: 0; }
+}
+
+.animate-typing {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #000; /* Penanda kursor */
+  animation: typing 10s steps(40, end) infinite;
+}
+
+/* Pengaturan Background dan Border Gambar */
+.rounded-l-lg {
+  border-radius: 0.75rem 0 0 0.75rem; /* Sudut kiri bawah tidak lancip */
+}
+
+
+/* Pengaturan Background dan Border Gambar */
+.rounded-l-lg {
+  border-radius: 0.75rem;
+}
