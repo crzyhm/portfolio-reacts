@@ -10,30 +10,29 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-transparent  w-full z-10 font-montserrat ">
+    <nav className="bg-transparent w-full z-10 font-montserrat">
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="flex items-center space-x-6">
           <span className="text-xl font-bold text-gray-800">Akbar</span>
         </div>
 
-        {/* Links */}
-        <div className={`flex space-x-6 ${isOpen ? 'block' : 'hidden'} md:flex md:space-x-6`}>
-          <a href="#" className="text-gray-600 hover:text-gray-800">Home</a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">Project</a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">Service</a>
-          <a href="#" className="text-gray-600 hover:text-gray-800">Boatman</a>
+        {/* Desktop Links */}
+        <div className="hidden md:flex space-x-6">
+          <a href="#Home" className="text-gray-600 hover:text-gray-800 transition duration-300">Home</a>
+          <a href="#Service" className="text-gray-600 hover:text-gray-800 transition duration-300">Service</a>
+          <a href="#Project" className="text-gray-600 hover:text-gray-800 transition duration-300">Project</a>
         </div>
 
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
-          <a href="mailto:example@example.com" className="text-gray-600 hover:text-gray-800">
+          <a href="mailto:example@example.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
             <FaEnvelope size={20} />
           </a>
-          <a href="https://www.linkedin.com" className="text-gray-600 hover:text-gray-800">
+          <a href="https://www.linkedin.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
             <FaLinkedinIn size={20} />
           </a>
-          <a href="https://www.facebook.com" className="text-gray-600 hover:text-gray-800">
+          <a href="https://www.facebook.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
             <FaFacebookF size={20} />
           </a>
         </div>
@@ -53,18 +52,17 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <div className="flex flex-col items-center py-4 space-y-4">
-            <a href="#" className="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out transform hover:scale-105">Home</a>
-            <a href="#" className="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out transform hover:scale-105">Project</a>
-            <a href="#" className="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out transform hover:scale-105">Service</a>
-            <a href="#" className="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out transform hover:scale-105">Boatman</a>
-            <div className="flex space-x-4">
-              <a href="mailto:example@example.com" className="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out transform hover:scale-105">
+            <a href="#Home" className="text-gray-600 hover:text-gray-800 transition duration-300">Home</a>
+            <a href="#Service" className="text-gray-600 hover:text-gray-800 transition duration-300">Service</a>
+            <a href="#Project" className="text-gray-600 hover:text-gray-800 transition duration-300">Project</a>
+            <div className="flex space-x-4 mt-4">
+              <a href="mailto:example@example.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
                 <FaEnvelope size={20} />
               </a>
-              <a href="https://www.linkedin.com" className="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out transform hover:scale-105">
+              <a href="https://www.linkedin.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
                 <FaLinkedinIn size={20} />
               </a>
-              <a href="https://www.facebook.com" className="text-gray-600 hover:text-gray-800 transition duration-300 ease-in-out transform hover:scale-105">
+              <a href="https://www.facebook.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
                 <FaFacebookF size={20} />
               </a>
             </div>

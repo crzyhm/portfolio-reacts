@@ -1,0 +1,25 @@
+.skill-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Adjust gap between icons */
+  justify-content: start;
+  padding: 20px; /* Add padding if needed */
+}
+
+.skill-icon {
+  width: 60px; /* Adjust size */
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ddd; /* Light border */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.skill-icon:hover {
+  transform: scale(1.1); /* Scale up on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}

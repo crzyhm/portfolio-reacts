@@ -3,7 +3,7 @@ import React from 'react';
 import SkeletonLoader from './SkeletonLoader';
 
 const Projects = () => (
-  <div className="w-full h-screen p-0">
+  <div  className="w-full h-screen p-0">
     <div className="grid grid-cols-12 gap-6 w-full h-full p-12">
       <a className="text-xl font-bold text-gray-800 col-span-12 flex justify-start">Projects</a>
 

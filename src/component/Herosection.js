@@ -3,6 +3,7 @@ import '@fontsource/montserrat'; // Import font Montserrat
 import { FaHandPaper } from 'react-icons/fa'; // Import icon melambaikan tangan
 import meRemoveBgPreview from '../img/me-removebg-preview 1.png'; // Import gambar lokal
 import './SkeletonLoader.css'; // Buat file CSS untuk skeleton loader
+import SkillIconsGrid from './SkillIconsGrid';
 
 const HeroSection = () => {
   return (
@@ -13,13 +14,14 @@ const HeroSection = () => {
           <h1 className="text-4xl font-light flex items-center">
             Hello, I’m <FaHandPaper className="ml-3 text-yellow-500 animate-wave" />
           </h1>
-          <h2 className="text-5xl font-bold mt-2 animate-typing">
+          <h2 className="text-4xl lg:text-5xl font-bold mt-2 animate-typing">
             Muhammad Akbar Cokro P
           </h2>
         </div>
         <p className="mt-6 text-gray-700 text-lg leading-relaxed font-light">
           I am a junior web developer with a strong foundation in full-stack development, honed through extensive external training. Although new to the professional field, I am skilled in both front-end and back-end technologies and passionate about creating dynamic, user-friendly web applications. Eager to contribute and grow, I am ready to bring my enthusiasm and solid skills to new and exciting projects.
         </p>
+        <SkillIconsGrid />
       </div>
 
       {/* 6 Column Image Section */}
