@@ -5,7 +5,7 @@ import SkeletonLoader from './SkeletonLoader';
 const Projects = () => (
   <div className="w-full h-screen p-0">
     <div className="grid grid-cols-12 gap-6 w-full h-full p-12">
-      <h1 className="col-span-12 flex justify-start">Skeleton Loader</h1>
+      <a className="text-xl font-bold text-gray-800 col-span-12 flex justify-start">Projects</a>
 
       {/* Kolom 1 (8 kolom, 6 baris) dengan Skeleton Loader */}
       <div className="skeleton-box col-span-8 row-span-6 bg-blue-100 flex items-center justify-center">

@@ -4,7 +4,7 @@ import HeroSection from './component/Herosection';
 import IconBoxes from './component/IconBoxes';
 import Projects from './component/Project';
 import CardGrid from './component/CardGrid';
-
+import SkillIcons from './component/SkillIcon';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Projects />
       <CardGrid />
       <Navbar />
+      <SkillIcons />
       {/* Konten lainnya */}
     </div>
   );

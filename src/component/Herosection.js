@@ -2,6 +2,7 @@ import React from 'react';
 import '@fontsource/montserrat'; // Import font Montserrat
 import { FaHandPaper } from 'react-icons/fa'; // Import icon melambaikan tangan
 import meRemoveBgPreview from '../img/me-removebg-preview 1.png'; // Import gambar lokal
+import './SkeletonLoader.css'; // Buat file CSS untuk skeleton loader
 
 const HeroSection = () => {
   return (
@@ -23,7 +24,7 @@ const HeroSection = () => {
 
       {/* 6 Column Image Section */}
       <div className="col-span-12 md:col-span-6 flex justify-center items-center">
-        <div className="bg-gray-100 p-4 rounded-l-lg">
+        <div className="bg-gray-100 skeleton-box main p-4 rounded-l-lg">
           <img
             src={meRemoveBgPreview}
             alt="Muhammad Akbar Cokro Pamungkas"
