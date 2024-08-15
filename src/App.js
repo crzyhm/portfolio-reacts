@@ -2,7 +2,9 @@ import React from 'react';
 import Navbar from './component/Navbar';
 import HeroSection from './component/Herosection';
 import IconBoxes from './component/IconBoxes';
-import Project from './component/Project';
+import Projects from './component/Project';
+import CardGrid from './component/CardGrid';
+
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <Navbar />
       <HeroSection />
       <IconBoxes />
-      <Project />
+      <Projects />
+      <CardGrid />
+      <Navbar />
       {/* Konten lainnya */}
     </div>
   );
