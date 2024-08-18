@@ -3,10 +3,10 @@ import { FaEnvelope, FaLinkedinIn, FaSlack, FaGithub } from 'react-icons/fa';
 
 const IconBoxes = () => {
   return (
-    <div className="h-400px bg-gray-100 flex flex-wrap justify-around items-center p-4 mt-8 lg:mt-0">
+    <div id='service'  className="h-400px bg-gray-100 flex flex-wrap justify-around items-center p-4 mt-8 lg:mt-0">
       {/* Kotak 1: Gmail */}
       <a
-        href="mailto:youremail@gmail.com"
+        href="mailto:akbarmuh403@example.com"
         className="flex items-center justify-center bg-white p-4 shadow-lg rounded-lg w-80 h-40 mb-4 lg:mb-0 transform transition-transform hover:scale-105"
         target="_blank"
         rel="noopener noreferrer"
@@ -17,7 +17,7 @@ const IconBoxes = () => {
 
       {/* Kotak 2: LinkedIn */}
       <a
-        href="https://www.linkedin.com/in/yourprofile"
+        href="https://www.linkedin.com/in/muhammad-akbar-cokro-pamungkas-20b630221/"
         className="flex items-center justify-center bg-white p-4 shadow-lg rounded-lg w-80 h-40 mb-4 lg:mb-0 transform transition-transform hover:scale-105"
         target="_blank"
         rel="noopener noreferrer"
@@ -28,7 +28,7 @@ const IconBoxes = () => {
 
       {/* Kotak 3: Slack */}
       <a
-        href="https://slack.com"
+        href="https://app.slack.com/client/T07J1NV71U0/C07H6AAEH7G"
         className="flex items-center justify-center bg-white p-4 shadow-lg rounded-lg w-80 h-40 mb-4 lg:mb-0 transform transition-transform hover:scale-105"
         target="_blank"
         rel="noopener noreferrer"
@@ -39,7 +39,7 @@ const IconBoxes = () => {
 
       {/* Kotak 4: GitHub */}
       <a
-        href="https://github.com/yourusername"
+        href="https://github.com/crzyhm"
         className="flex items-center justify-center bg-white p-4 shadow-lg rounded-lg w-80 h-40 mb-4 lg:mb-0 transform transition-transform hover:scale-105"
         target="_blank"
         rel="noopener noreferrer"

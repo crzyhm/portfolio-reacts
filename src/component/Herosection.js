@@ -7,7 +7,7 @@ import SkillIconsGrid from './SkillIconsGrid';
 
 const HeroSection = () => {
   return (
-    <div className="container mx-auto grid grid-cols-12 gap-4 p-8 mt-20">
+    <div id='home' className="container mx-auto grid grid-cols-12 gap-4 p-8 mt-20">
       {/* 6 Column Text Section */}
       <div className="col-span-12 md:col-span-6 flex flex-col justify-center">
         <div className="text-gray-800">

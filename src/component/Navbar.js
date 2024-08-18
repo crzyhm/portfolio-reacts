@@ -1,3 +1,4 @@
+// Navbar.js
 import React, { useState } from 'react';
 import { FaFacebookF, FaLinkedinIn, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
 import '@fontsource/montserrat'; // Import font Montserrat
@@ -19,20 +20,20 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6">
-          <a href="#Home" className="text-gray-600 hover:text-gray-800 transition duration-300">Home</a>
-          <a href="#Service" className="text-gray-600 hover:text-gray-800 transition duration-300">Service</a>
-          <a href="#Project" className="text-gray-600 hover:text-gray-800 transition duration-300">Project</a>
+          <a href="#home" className="text-gray-600 hover:text-gray-800 transition duration-300">Home</a>
+          <a href="#service" className="text-gray-600 hover:text-gray-800 transition duration-300">Service</a>
+          <a href="#project" className="text-gray-600 hover:text-gray-800 transition duration-300">Project</a>
         </div>
 
         {/* Social Icons */}
         <div className="hidden md:flex space-x-4">
-          <a href="mailto:example@example.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
+          <a href="mailto:akbarmuh403@example.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
             <FaEnvelope size={20} />
           </a>
-          <a href="https://www.linkedin.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
+          <a href="https://www.linkedin.com/in/muhammad-akbar-cokro-pamungkas-20b630221/" className="text-gray-600 hover:text-gray-800 transition duration-300">
             <FaLinkedinIn size={20} />
           </a>
-          <a href="https://www.facebook.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
+          <a href="https://www.facebook.com/fallenx223" className="text-gray-600 hover:text-gray-800 transition duration-300">
             <FaFacebookF size={20} />
           </a>
         </div>
@@ -52,14 +53,14 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <div className="flex flex-col items-center py-4 space-y-4">
-            <a href="#Home" className="text-gray-600 hover:text-gray-800 transition duration-300">Home</a>
-            <a href="#Service" className="text-gray-600 hover:text-gray-800 transition duration-300">Service</a>
-            <a href="#Project" className="text-gray-600 hover:text-gray-800 transition duration-300">Project</a>
+            <a href="#home" className="text-gray-600 hover:text-gray-800 transition duration-300">Home</a>
+            <a href="#service" className="text-gray-600 hover:text-gray-800 transition duration-300">Service</a>
+            <a href="#project" className="text-gray-600 hover:text-gray-800 transition duration-300">Project</a>
             <div className="flex space-x-4 mt-4">
               <a href="mailto:example@example.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
                 <FaEnvelope size={20} />
               </a>
-              <a href="https://www.linkedin.com" className="text-gray-600 hover:text-gray-800 transition duration-300">
+              <a href="https://www.linkedin.com/in/muhammad-akbar-cokro-pamungkas-20b630221/" className="text-gray-600 hover:text-gray-800 transition duration-300">
                 <FaLinkedinIn size={20} />
               </a>
               <a href="https://www.facebook.com" className="text-gray-600 hover:text-gray-800 transition duration-300">

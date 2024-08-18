@@ -9,8 +9,8 @@ const CardGrid = () => {
         {/* Card 1 */}
         <Card
           number="01"
-          title="WEBSITE DESIGN"
-          description="Web design involves creating the visual layout and user interface of websites to ensure they are aesthetically pleasing and user-friendly. It encompasses aspects such as user experience (UX) to make navigation intuitive, user interface (UI) for visual appeal, and responsive design for compatibility across devices. Effective web design also includes graphic design elements, accessibility features, and performance optimization to enhance usability and engagement."
+          title="WEBSITE DEVELOPER"
+          description="Web development involves creating and maintaining websites and web applications. It combines coding skills with design principles to build user-friendly, functional, and visually appealing online experiences. Effective web development requires proficiency in languages like HTML, CSS, and JavaScript, as well as a keen understanding of user experience and responsive design."
         />
         
         {/* Card 2 */}
