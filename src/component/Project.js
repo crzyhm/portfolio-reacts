@@ -23,12 +23,12 @@ const Projects = () => (
       </div>
 
       {/* Kolom 4 (6 kolom, 3 baris) */}
-      <div className="skeleton-box col-span-6 row-span-3 bg-yellow-100 flex items-center justify-center text-2xl font-bold">
+      <div className="skeleton-box col-span-6 row-span-2 bg-yellow-100 flex items-center justify-center text-2xl font-bold">
         <SkeletonLoader />
       </div>
 
       {/* Kolom 5 (6 kolom, 3 baris) */}
-      <div className="skeleton-box col-span-6 row-span-3 bg-purple-100 flex items-center justify-center text-2xl font-bold">
+      <div className="skeleton-box col-span-6 row-span-2 bg-purple-100 flex items-center justify-center text-2xl font-bold">
         <SkeletonLoader />
       </div>
     </div>

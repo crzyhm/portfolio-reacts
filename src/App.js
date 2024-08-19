@@ -4,6 +4,7 @@ import HeroSection from './component/Herosection';
 import IconBoxes from './component/IconBoxes';
 import Projects from './component/Project';
 import CardGrid from './component/CardGrid';
+import Sertifikat from './component/sertifikat';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <IconBoxes />
       <CardGrid />
       <Projects />
+      <Sertifikat/>
       <Navbar />
 
       {/* Konten lainnya */}
